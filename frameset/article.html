@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        
+        background-color: #666;
+       }
+        .profile-top {
+            display: flex;
+            justify-content: flex-start;
+            grid-template-columns: 150px 1fr 120px;
+            gap: 20px;
+            align-items: flex-start;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+
+        /* FOTO PROFIL */
+        .profile-photo {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+
+        /* IDENTITAS */
+        .identity h2 {
+            margin: 0;
+            font-size: 25px;
+        }
+
+        .identity p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+       
+
+        /* DESKRIPSI */
+        .description {
+            margin-top: 20px;
+            line-height:1.5;
+            text-align: justify;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+     <main>
+        <article id="profil">
+
+            <!-- FOTO DAN IDENTITAS -->
+            <section class="profile-top">
+
+                <div>
+                    <img
+                        src="fotoprofile.jpeg"
+                        alt="Foto profil"
+                        class="profile-photo">
+                </div>
+                <div class="identity" > 
+                    <h2>BIODATA</h2> <br><p>
+
+                    Nama: Zulfa Zamain <br>
+                        TTL: Garut, 12 Agustus 2006 <br>
+                        Status: Mahasiswa Aktif <br>
+                        
+                        Email: zulfazamain40@gmail.com <br>
+                        Whatsapp: 0882-9370-2332 </p> <br>
+                        <p>Alamat: Kp. Rumbut, Kel. Pasir Gunung Selatan, Cimanggis, Depok</p>
+                </div>
+
+
+            </section>
+
+            <!-- DESKRIPSI PROFIL -->
+            <section class="description" id="tentang">
+                <p>
+                    Saya merupakan mahasiswa aktif jurusan Teknik Informatika di STT Terpadu Nurul Fikri. <br> Saya memiliki ketertarikan pada dunia teknologi, pemrograman, dan desain web. </p>
+
+Saya senang mempelajari hal baru dan mengembangkan kemampuan diri. <br>
+setelah lulus saya ingin menjadi seorang programmer yang professional
+                </p>
+            </section>
+
+           
+            </section>
+
+        </article>
+       
+    </main>
+
+</body>
+</html>
